@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+/*stylesheet of the whole body part of the html*/
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 175px 1fr;
+    grid-template-rows: auto 1fr auto   ;
+    height: 45vmax;
+    max-width: 800px;
+    border: 1px solid #000;
+    margin: 20px auto;
+}
+/*header part stylesheet adding bg color and text alignment*/
+#head{
+    background-color: #0cd52a;
+    color: white;
+    text-align: left;
+    grid-column: 1 /span 2;
+    padding: 15px;
+    font-size: 1.5em;
+}
+/*navigation stylehseet where we add background color and text alignment as well as padding also known as box model*/
+#nav{
+    background-color: #878d88;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    width: 175px;
+    
+}
+#main{
+    background-color: #dddada;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
+}
+#foot{
+    background-color: #0cd52a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    grid-column: 1 /span 2;
+}
+.header-right {
+    
+    text-align: right;
+    font-size: small;
+    margin-left: 8px;
+}
+.header-left {
+    text-align: left;
+    font-size: larger;
+    margin-right: 8px;
+}
+
+#nav ul {
+    list-style-type: disc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

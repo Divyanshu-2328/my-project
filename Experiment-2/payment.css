@@ -1,122 +1,63 @@
 * {
-
     margin: 0;
-
     padding: 0;
-
-    background: white;
-
     box-sizing: border-box;
-
+    background: #fff;
 }
-
-
 
 body {
-
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
     min-height: 100vh;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     padding: 20px;
-
 }
-
-
 
 .container {
-
-    background: white;
-
-    border-radius: 15px;
-
+    background: #fff;
+    border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-
     padding: 40px;
-
     max-width: 400px;
-
     width: 100%;
-
     text-align: center;
-
 }
-
-
 
 #amount {
-
     width: 100%;
-
     padding: 20px;
-
     font-size: 24px;
-
     font-weight: bold;
-
     color: #333;
-
-    background-color: #ffffff;
-
+    background: #fff;
 }
 
-
-
 .button-container {
-
     display: flex;
-
     gap: 20px;
-
     justify-content: center;
-
     align-items: center;
-
     flex-wrap: wrap;
-
 }
 
 button {
-
     flex: 1;
-
     padding: 15px 20px;
-
     font-size: 16px;
-
     font-weight: 600;
-
     border: none;
-
     border-radius: 8px;
-
     cursor: pointer;
-
-    transition: all 0.3s ease;
-
+    transition: background 0.3s, color 0.3s;
     min-width: 120px;
-
 }
+
 #Btn {
-
     background: #016118;
-
-    color: white;
-
+    color: #fff;
 }
-
-
 
 #wBtn {
-
     background: #880512;
-
-    color: white;
-
-}
+    color:

@@ -1,3 +1,10 @@
+:root{
+    --bg-header:green;
+    --bg-footer:green;
+    --bg-main:aliceblue;
+    --bg-nav:grey;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,12 +13,12 @@
 
 }
 /*stylesheet of the whole body part of the html*/
-body {
-    background-color: #ffffff;
+.body {
+    background-color: ;
     font-family: Arial, sans-serif;
     display: grid;
     grid-template-columns: 175px 1fr;
-    grid-template-rows: auto 1fr auto   ;
+    grid-template-rows: auto 1fr auto ;
     height: 45vmax;
     max-width: 800px;
     border: 1px solid #000;
@@ -19,7 +26,7 @@ body {
 }
 /*header part stylesheet adding bg color and text alignment*/
 #head{
-    background-color: #0cd52a;
+    background-color:var(--bg-header);
     color: white;
     text-align: left;
     grid-column: 1 /span 2;
@@ -28,7 +35,7 @@ body {
 }
 /*navigation stylehseet where we add background color and text alignment as well as padding also known as box model*/
 #nav{
-    background-color: #878d88;
+    background-color:var(--bg-nav);
     color: white;
     text-align: left;
     padding: 10px;
@@ -36,7 +43,7 @@ body {
     
 }
 #main{
-    background-color: #dddada;
+    background-color: var(--bg-main);
     color: black;
     padding-left: 20px;
     padding-right: 10px;
@@ -44,7 +51,7 @@ body {
     
 }
 #foot{
-    background-color: #0cd52a;
+    background-color: var(--bg-footer);
     color: white;
     text-align: center;
     padding: 10px;
@@ -68,4 +75,15 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+#themechange{
+    display: none;
+}
+
+#themechange:checked ~ .body {
+    --bg-header: rgb(77, 76, 76);
+    --bg-nav: rgb(49, 49, 49);
+    --bg-footer: rgb(82, 81, 81);
+    --bg-main:rgb(172, 169, 169);
+    --bg-text: black;
 }

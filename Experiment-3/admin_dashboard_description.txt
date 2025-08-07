@@ -1,0 +1,36 @@
+ADMIN DASHBOARD STRUCTURE AND STYLING DESCRIPTION
+
+HTML Description:
+
+1. The document begins with the <!DOCTYPE html> declaration to define HTML5. The <head> section sets metadata, including character encoding (UTF-8), viewport for responsiveness, the document title, and a link to an external stylesheet (Experiment-3.css).
+
+2. The <body> contains a hidden checkbox input (id="themechange") used to toggle dark mode. Below it, a <div> with class body acts as the main layout container.
+
+3. Inside the .body div:
+   - The <header id="head"> contains two divs: .header-left with the title “Admin Dashboard” and .header-right containing a label for the dark mode checkbox.
+   - The <nav id="nav"> holds an unordered list of navigation links: Home, Users, and Settings.
+   - The <main id="main"> contains two <section> elements: one with a heading “Welcome, Admin!” and the other with paragraph content representing the main area.
+   - The <footer id="foot"> displays the copyright.
+
+CSS Description:
+
+1. The :root selector defines CSS variables for theming:
+   --bg-header, --bg-footer, --bg-main, and --bg-nav control background colors of various sections.
+
+2. The universal selector * resets default margin and padding, sets box-sizing: border-box, and applies a universal font.
+
+3. The .body class uses display: grid with two columns (175px 1fr) and three rows (auto 1fr auto). It has fixed dimensions, centered alignment, and a border.
+
+4. The #head header uses var(--bg-header) as background, spans both columns of the grid, and contains white text with padding and increased font size.
+
+5. The #nav sidebar has a background from var(--bg-nav), fixed width of 175px, and a vertical flex list with spacing between items.
+
+6. The #main content section has padding, black text, and a background from var(--bg-main).
+
+7. The #foot footer shares styles with the header using var(--bg-footer), white text, and center alignment, spanning the full width of the grid.
+
+8. .header-left and .header-right style the content inside the header with alignment and size adjustments.
+
+9. The checkbox #themechange is hidden using display: none.
+
+10. When #themechange is checked, the adjacent .body element updates CSS variables to switch to dark mode using a sibling selector. This changes the header, nav, footer, and main section background colors, enabling a theme switch without JavaScript.

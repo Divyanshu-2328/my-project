@@ -1,0 +1,158 @@
+LIVE CHARACTER COUNTER – TEST CASES & VALIDATIONS
+1. TEXTAREA: Input Field
+
+Requirement:
+
+A textarea must be provided for user input.
+
+It should include placeholder text as guidance.
+
+Must allow typing of spaces, letters, numbers, and line breaks.
+
+Valid Test Cases:
+
+Textarea is visible across all screen sizes.
+
+Placeholder “Start typing…” appears initially.
+
+User can enter, modify, and delete text without issues.
+
+Invalid Test Cases:
+
+Textarea is missing or not visible.
+
+Placeholder text does not appear.
+
+Input cannot be entered or disappears while typing.
+
+2. CHARACTER COUNT DISPLAY
+
+Requirement:
+
+Must display the live number of characters entered (including spaces and line breaks).
+
+Count should update immediately as users type or delete text.
+
+Valid Test Cases:
+
+Counter increases with each character typed.
+
+Counter decreases when text is deleted.
+
+Counter works properly with multiple lines and spaces.
+
+Invalid Test Cases:
+
+Counter does not update.
+
+Counter stays at 0 or shows an incorrect value.
+
+Spaces or line breaks are not counted properly.
+
+3. INITIALIZATION
+
+Requirement:
+
+Counter should load correctly when the page opens.
+
+Any pre-filled text must display the correct count immediately.
+
+Valid Test Cases:
+
+On page load, counter shows 0 when textarea is empty.
+
+If the textarea has default text, the correct count is displayed.
+
+Invalid Test Cases:
+
+Counter remains blank or displays an incorrect number when the page loads.
+
+4. RESPONSIVENESS
+
+Requirement:
+
+Textarea and counter should adapt smoothly to various screen sizes.
+
+Must remain clear and functional on both desktop and mobile devices.
+
+Valid Test Cases:
+
+Layout adjusts properly on smaller screens without overflow issues.
+
+Both textarea and counter remain visible and usable.
+
+Invalid Test Cases:
+
+Counter or textarea overlap or become unreadable on mobile screens.
+
+CSS STYLING BREAKDOWN
+1. Element: body
+
+Purpose: Base styling for the page
+Properties:
+
+margin: 0;
+
+font-family: system-ui, sans-serif;
+
+background-color: #f9fafb;
+
+color: #111827;
+
+2. Element: .counter-container
+
+Purpose: Wrapper holding textarea and counter
+Properties:
+
+border: 1px solid #222;
+
+padding: 16px;
+
+margin: 20px auto;
+
+max-width: 600px;
+
+background: #fff;
+
+3. Element: .counter-title
+
+Purpose: Title text displayed above textarea
+Properties:
+
+font-size: 1.3em;
+
+margin-bottom: 8px;
+
+4. Element: textarea
+
+Purpose: User input field
+Properties:
+
+width: 100%;
+
+min-height: 80px;
+
+font-size: 1em;
+
+margin-bottom: 8px;
+
+padding: 8px;
+
+5. Element: .char-count
+
+Purpose: Display for live character count
+Properties:
+
+font-weight: bold;
+
+LEARNING OUTCOMES
+
+Understood how to create a live character counter using HTML, CSS, and JavaScript.
+
+Learned how to update DOM elements dynamically with JavaScript event listeners.
+
+Practiced handling user input including spaces, letters, numbers, and newlines.
+
+Gained experience in building responsive layouts for readability across devices.
+
+Learned the importance of separating HTML, CSS, and JavaScript for modular and maintainable code.

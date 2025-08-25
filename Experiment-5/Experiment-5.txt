@@ -1,0 +1,65 @@
+Dynamic Product Filter – Description
+1. HTML (Experiment-5.html)
+
+Purpose
+The HTML file builds the basic structure of the product filtering web page.
+
+Key Components
+
+Container: Holds the page title, filter dropdown, and product list.
+
+Title Section: Displays “Available Products” as the heading.
+
+Filter Controls: Provides a dropdown menu to filter products by category (All, Clothing, Electronics, Books).
+
+Product List: Displays products inside list items. Each product is assigned a category using the data-category attribute for filtering.
+
+2. CSS (Experiment-5.css)
+
+Purpose
+The CSS file styles the page to make it visually appealing and easy to navigate.
+
+Key Styling Points
+
+Adds borders, padding, background color, and rounded corners to the main container.
+
+Customizes title size and color for better visibility.
+
+Aligns the label and dropdown neatly using spacing and flex layout.
+
+Removes default bullet points from the list.
+
+Styles each product item with background color, border, padding, and hover effects to enhance user experience.
+
+3. JavaScript (Experiment-5.js)
+
+Purpose
+The JavaScript file adds interactivity to dynamically filter products based on the selected category.
+
+Process
+
+Waits for the webpage to load completely before executing the filtering logic.
+
+Selects the dropdown menu and product items from the page.
+
+Defines a filtering function that:
+
+Reads the selected category.
+
+Displays all products if “All” is selected.
+
+Displays only matching products for other categories.
+
+Hides the rest.
+
+Attaches an event listener to trigger filtering whenever the dropdown selection changes.
+
+Runs the filter function once on page load to show all products by default.
+
+Overall Working
+
+HTML creates the page layout and product list.
+
+CSS styles the page for a neat appearance.
+
+JavaScript filters products dynamically without reloading the page.

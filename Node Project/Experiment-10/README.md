@@ -67,19 +67,19 @@ node employee.js
 
 ## Outputs
 ### Adding an Employee
-![Add Employee](images/Add_Employee.png)
+![Add Employee](images/1_ADD_.png)
 
 ### Listing Employees
-![List Employees](images/List_Employee.png)
+![List Employees](images/2_List.png)
 
 ### Removing an Employee
-![Remove Employee](images/Remove_Employee.png)
+![Remove Employee](images/3_REMOVE.png)
 
 ### Invalid Employee ID
-![Invalid ID](images/Invalid_ID.png)
+![Invalid ID](images/INVALID.png)
 
 ### Exiting the System
-![Exit](images/Exit.png)
+![Exit](images/4_EXIT.png)
 
 
 ## Learning Outcomes

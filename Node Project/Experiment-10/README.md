@@ -70,7 +70,7 @@ node employee.js
 ![Add Employee](images/1_ADD_.png)
 
 ### Listing Employees
-![List Employees](images/2_List.png)
+![List Employees](images/2_LIST.png)
 
 ### Removing an Employee
 ![Remove Employee](images/3_REMOVE.png)

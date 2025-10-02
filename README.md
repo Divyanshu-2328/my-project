@@ -6,7 +6,10 @@ It demonstrates the basic structure of a frontend project, including layout desi
 ## Technologies Used
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript
+- React
+- Node
+- MongoDB
 
 ## Project Description
 The project focuses on building a clean and responsive web interface.  

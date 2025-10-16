@@ -1,12 +1,28 @@
-## HTML + CSS + JavaScript
+# My Project
 
-This is a sample project to demonstrate the use of HTML, CSS and JavaScript. Start modefy the index.html, styles.css & script.js files to see the changes.
+This project is a simple web-based application created using **HTML**, **CSS**, and **JavaScript**.  
+It demonstrates the basic structure of a frontend project, including layout design, styling, and interactivity.
 
-## How to run
+## Technologies Used
+- HTML  
+- CSS  
+- JavaScript
+- React
+- Node
+- MongoDB
 
-1. Run the follwing command in your terminal:
-```bash
-live-server --no-browser
-```
+## Project Description
+The project focuses on building a clean and responsive web interface.  
+It includes different experimental sections to understand:
+- HTML structure and content organization  
+- CSS styling and layout techniques  
+- JavaScript-based interactivity and DOM manipulation  
 
-2. Refresh the URL in simple browser to see the output
+## How to Run
+1. Download or clone the repository.  
+2. Open the `index.html` file in any web browser.  
+
+## Author
+**Divyanshu Singh**  
+[B.E. in Artificial Intelligence and Data Science]  
+GitHub: [Divyanshu-2328](https://github.com/Divyanshu-2328)
